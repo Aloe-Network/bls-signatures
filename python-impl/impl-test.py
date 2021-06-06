@@ -310,7 +310,7 @@ def test_elements():
     assert ate_pairing(g1, sig) == ate_pairing(pk, Hm)
 
 
-def test_chia_vectors_1():
+def test_aloe_vectors_1():
     seed1: bytes = bytes([0x00] * 32)
     seed2: bytes = bytes([0x01] * 32)
     msg1: bytes = bytes([7, 8, 9])
@@ -371,7 +371,7 @@ def test_chia_vectors_1():
     )
 
 
-def test_chia_vectors_3():
+def test_aloe_vectors_3():
     seed1: bytes = bytes([0x04] * 32)
     sk1 = PopSchemeMPL.key_gen(seed1)
     proof = PopSchemeMPL.pop_prove(sk1)
@@ -618,8 +618,8 @@ test_xmd()
 test_swu()
 test_edge_case_sign_Fq2()
 test_elements()
-test_chia_vectors_1()
-test_chia_vectors_3()
+test_aloe_vectors_1()
+test_aloe_vectors_3()
 test_pyecc_vectors()
 test_vectors_invalid()
 test_readme()

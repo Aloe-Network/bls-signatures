@@ -189,12 +189,12 @@ class BuildExt(build_ext):
 if platform.system() == "Windows":
     setup(
         name="blspy",
-        author="Mariano Sorgente",
-        author_email="mariano@chia.net",
+        author="Shane Cravens",
+        author_email="shane@aloecoin.org",
         description="BLS signatures in c++ (with python bindings)",
         long_description=open("README.md").read(),
         long_description_content_type="text/markdown",
-        url="https://github.com/Chia-Network/bls-signatures",
+        url="https://github.com/Aloe-Network/bls-signatures",
         python_requires=">=3.7",
         setup_requires=["pybind11>=2.5.0"],
         install_requires=["pybind11>=2.5.0"],
@@ -205,14 +205,14 @@ if platform.system() == "Windows":
 else:
     setup(
         name="blspy",
-        author="Mariano Sorgente",
-        author_email="mariano@chia.net",
+        author="Shane Cravens",
+        author_email="shane@aloecoin.org",
         description="BLS signatures in c++ (python bindings)",
         python_requires=">=3.7",
         install_requires=["wheel"],
         long_description=open("README.md").read(),
         long_description_content_type="text/markdown",
-        url="https://github.com/Chia-Network/bls-signatures",
+        url="https://github.com/Aloe-Network/bls-signatures",
         ext_modules=[CMakeExtension("blspy", ".")],
         cmdclass=dict(build_ext=CMakeBuild),
         zip_safe=False,

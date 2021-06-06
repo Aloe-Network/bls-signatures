@@ -1,5 +1,5 @@
 
-// Copyright 2020 Chia Network Inc
+// Copyright 2021 Aloe Network, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -313,8 +313,8 @@ TEST_CASE("IETF test vectors") {
 }
 
 
-TEST_CASE("Chia test vectors") {
-    SECTION("Chia test vectors 1 (Basic)") {
+TEST_CASE("Aloe test vectors") {
+    SECTION("Aloe test vectors 1 (Basic)") {
         vector<uint8_t> seed1(32, 0x00);  // All 0s
         vector<uint8_t> seed2(32, 0x01);  // All 1s
         vector<uint8_t> message1 = {7, 8, 9};
@@ -382,7 +382,7 @@ TEST_CASE("Chia test vectors") {
             "d547ab37659ae207968b545727beba0a3c5572b9c");
     }
 
-    SECTION("Chia test vector 2 (Augmented, aggregate of aggregates)") {
+    SECTION("Aloe test vector 2 (Augmented, aggregate of aggregates)") {
         vector<uint8_t> message1 = {1, 2, 3, 40};
         vector<uint8_t> message2 = {5, 6, 70, 201};
         vector<uint8_t> message3 = {9, 10, 11, 12, 13};
@@ -417,7 +417,7 @@ TEST_CASE("Chia test vectors") {
             "6eac218b28cdb07a3e3bc087df1cd1e3213aa4e11322a3ff3847bbba0b2fd19ddc25ca964871"
             "997b9bceeab37a4c2565876da19382ea32a962200");
     }
-    SECTION("Chia test vector 3 (PoP)") {
+    SECTION("Aloe test vector 3 (PoP)") {
         vector<uint8_t> message1 = {1, 2, 3, 40, 50};
 
         vector<uint8_t> seed1(32, 0x04);  // All 4s

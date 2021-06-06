@@ -89,20 +89,20 @@ jobs:
           python -m pip install --upgrade pip
         CIBW_REPAIR_WHEEL_COMMAND_MACOS: >
           pip uninstall -y delocate
-          && pip install git+https://github.com/Chia-Network/delocate.git
+          && pip install git+https://github.com/Aloe-Network/delocate.git
           && delocate-listdeps {wheel}
           && delocate-wheel -v {wheel}
           && cp {wheel} {dest_dir}
         CIBW_BEFORE_ALL_WINDOWS: >
           curl -L https://download.libsodium.org/libsodium/releases/libsodium-1.0.18-stable-msvc.zip > libsodium-1.0.18-stable-msvc.zip
           && 7z x libsodium-1.0.18-stable-msvc.zip
-          && git clone https://github.com/Chia-Network/relic_ietf_64.git
+          && git clone https://github.com/Aloe-Network/relic_ietf_64.git
           && ls -l relic_ietf_64
-          && git clone https://github.com/Chia-Network/mpir_gc_x64.git
+          && git clone https://github.com/Aloe-Network/mpir_gc_x64.git
           && ls -l mpir_gc_x64
         CIBW_REPAIR_WHEEL_COMMAND_WINDOWS: >
           pip uninstall -y delocate
-          && pip install git+https://github.com/Chia-Network/delocate.git
+          && pip install git+https://github.com/Aloe-Network/delocate.git
           && delocate-wheel -v -i mpir_gc_x64/mpir.dll {wheel}
           && delocate-wheel -v -i mpir_gc_x64/mpir_gc.dll {wheel}
           && delocate-wheel -v -i mpir_gc_x64/mpir_broadwell.dll {wheel}

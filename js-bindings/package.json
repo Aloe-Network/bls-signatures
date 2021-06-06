@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Chia-Network/bls-signatures.git"
+    "url": "git@github.com:Aloe-Network/bls-signatures.git"
   },
-  "homepage": "https://github.com/Chia-Network/bls-signatures/tree/master/js-bindings",
+  "homepage": "https://github.com/Aloe-Network/bls-signatures/tree/master/js-bindings",
   "author": {
-    "name": "Anton Suprunchuk",
-    "email": "antouhou@gmail.com",
-    "url": "https://github.com/antouhou"
+    "name": "Shane Cravens",
+    "email": "shane@aloecoin.org",
+    "url": "https://github.com/cravenss"
   },
   "keywords": [
     "bls",
