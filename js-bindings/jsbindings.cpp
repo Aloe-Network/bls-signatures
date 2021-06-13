@@ -1,4 +1,4 @@
-// Copyright 2021 Aloe Network, LLC
+// Copyright 2021 Aloe, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -96,3 +96,4 @@ EMSCRIPTEN_BINDINGS(blsjs) {
         .class_function("hash256", &UtilWrapper::Hash256);
 };
 }  // namespace js_wrappers
+appers

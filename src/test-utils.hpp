@@ -1,4 +1,4 @@
-// Copyright 2021 Aloe Network, LLC
+// Copyright 2021 Aloe, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -50,4 +50,6 @@ std::vector<uint8_t> getRandomSeed() {
     bn_write_bin(buf, 32, r);
     std::vector<uint8_t> ret(buf, buf + 32);
     return ret;
+}
+et;
 }

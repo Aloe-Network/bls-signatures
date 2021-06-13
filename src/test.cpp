@@ -1,5 +1,5 @@
 
-// Copyright 2021 Aloe Network, LLC
+// Copyright 2021 Aloe, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -1171,4 +1171,6 @@ int main(int argc, char* argv[])
 {
     int result = Catch::Session().run(argc, argv);
     return result;
+}
+lt;
 }

@@ -1,4 +1,4 @@
-// Copyright 2021 Aloe Network, LLC
+// Copyright 2021 Aloe, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -46,3 +46,4 @@ std::string BignumWrapper::ToString(int radix) {
     return std::string(&strholder[0], strsize - 1);
 }
 }  // namespace js_wrappers
+appers

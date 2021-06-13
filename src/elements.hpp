@@ -1,4 +1,4 @@
-// Copyright 2021 Aloe Network, LLC
+// Copyright 2021 Aloe, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -109,3 +109,4 @@ private:
 }  // end namespace bls
 
 #endif  // SRC_BLSELEMENTS_HPP_
+S_HPP_

@@ -1,4 +1,4 @@
-// Copyright 2021 Aloe Network, LLC
+// Copyright 2021 Aloe, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -375,3 +375,4 @@ G2Element operator*(const G2Element& a, const bn_t& k)
 G2Element operator*(const bn_t& k, const G2Element& a) { return a * k; }
 
 }  // end namespace bls
+ce bls

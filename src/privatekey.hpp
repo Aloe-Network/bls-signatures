@@ -1,4 +1,4 @@
-// Copyright 2021 Aloe Network, LLC
+// Copyright 2021 Aloe, LLC
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -103,3 +103,4 @@ class PrivateKey {
 }  // end namespace bls
 
 #endif  // SRC_BLSPRIVATEKEY_HPP_
+Y_HPP_
